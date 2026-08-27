@@ -25,12 +25,11 @@ The project aims to answer several key business questions:
 
 ## Technologies Used
 
-| Tool          | Purpose                                               |
-| ------------- | ----------------------------------------------------- |
-| SQL Server    | Data extraction, transformation, and RFM calculations |
-| Power BI      | Dashboard development and visualization               |
-| DAX           | KPI calculations and business metrics                 |
-| Data Modeling | Star schema design and relationship management        |
+
+ SQL Server    - Data extraction, transformation, and RFM calculations 
+ Power BI      - Dashboard development and visualization               
+ DAX           - KPI calculations and business metrics                 
+ Data Modeling - Star schema design and relationship management        
 
 ---
 
@@ -39,17 +38,14 @@ The project aims to answer several key business questions:
 The solution is built using a star-schema model consisting of:
 
 ### Fact Tables
-
 * Fact_Applications
 * Fact_Sessions
 
 ### Dimension Tables
-
 * Customers
 * DimDate
 
 ### Analytical Tables
-
 * Customer_RFM
 * Measures_Table
 
@@ -85,45 +81,11 @@ Provides a high-level view of banking application performance and customer activ
 * Geographic analysis by city
 * Customer demographics
 
-### Business Value
-
-This dashboard helps management monitor lending activity, approval efficiency, and customer demand patterns.
-
 ![Banking Performance Overview](Screenshots/Banking-Overview.png)
 
 ---
 
-# Dashboard 2: Digital Banking Analysis
-
-## Purpose
-
-Analyzes customer interaction with digital banking services.
-
-### Key Metrics
-
-* Total Sessions
-* Active Customers
-* Average Session Duration
-* Session Error Rate
-
-### Analysis Included
-
-* Session trends over time
-* Most frequently used digital services
-* Session error categories
-* Customer digital engagement
-* Network usage analysis
-* Customer activity details
-
-### Business Value
-
-This dashboard identifies customer behavior patterns, service adoption rates, and potential issues impacting user experience.
-
-![Digital Banking Analysis](Screenshots/Digital-Analysis.png)
-
----
-
-# Dashboard 3: RFM Customer Segmentation
+# Dashboard 2: RFM Customer Segmentation
 
 ## Purpose
 
@@ -174,6 +136,30 @@ The treemap visualization provides an overview of customer distribution across R
 ![RFM Analysis](Screenshots/RFM-Analysis.png)
 
 ---
+# Dashboard 3: Digital Banking Analysis
+
+## Purpose
+
+Analyzes customer interaction with digital banking services.
+
+### Key Metrics
+
+* Total Sessions
+* Active Customers
+* Average Session Duration
+* Session Error Rate
+
+### Analysis Included
+
+* Session trends over time
+* Most frequently used digital services
+* Session error categories
+* Customer digital engagement
+* Network usage analysis
+* Customer activity details
+
+![Digital Banking Analysis](Screenshots/Digital-Analysis.png)
+
 
 ## SQL Workflow
 
@@ -197,7 +183,6 @@ The treemap visualization provides an overview of customer distribution across R
 * Window Functions
 * Joins
 * Ranking Functions
-* Views
 
 ---
 
@@ -222,46 +207,8 @@ Users can analyze data by:
 * Treemaps
 * Donut Charts
 * Detailed Tables
+* Tooltips
 * Interactive Slicers
-
----
-
-## Key Insights
-
-### Customer Segmentation
-
-* Champions represent a high-value customer group that should be prioritized for retention.
-* At-risk customers account for a significant portion of the customer base and may require targeted engagement campaigns.
-
-### Banking Applications
-
-* Application volumes remain stable with noticeable growth in recent periods.
-* Approval and decision rates provide insight into lending efficiency.
-
-### Digital Banking
-
-* Customers actively use multiple digital services.
-* Error-rate monitoring helps identify opportunities for improving digital user experience.
-
----
-
-## Business Recommendations
-
-### Retain High-Value Customers
-
-Develop loyalty and rewards programs for Champion and Loyal Customer segments.
-
-### Re-engage At-Risk Customers
-
-Launch personalized marketing campaigns and retention initiatives.
-
-### Improve Digital Experience
-
-Investigate high-frequency error categories and optimize customer journeys.
-
-### Increase Product Adoption
-
-Target New/Potential Customers with cross-selling and educational campaigns.
 
 ---
 
@@ -295,7 +242,6 @@ Customers-RFM-Analysis/
 * SQL Analytics
 * Data Modeling
 * Customer Segmentation
-* Business Intelligence
 * Power BI Dashboard Design
 * KPI Development
 * Data Visualization
