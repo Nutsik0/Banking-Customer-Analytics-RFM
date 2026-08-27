@@ -1,1 +1,1 @@
-# Cutsomers-RFM-Analysis
+# Customers-RFM-Analysis
